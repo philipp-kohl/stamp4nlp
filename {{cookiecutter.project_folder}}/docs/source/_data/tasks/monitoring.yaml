@@ -1,0 +1,18 @@
+---
+name: Monitoring
+purpose: Provide feature to monitor the running system
+description: Based on the specified business requirements, the running system is monitored. A production report is generated,
+  which provides the customer with a basis for evaluation
+steps:
+  - Transfer business requirements into operationable metric and
+  - Develop and operational monitoring 
+artifacts:
+  requires:
+    - Business Requirements
+  creates:
+    - Production Report
+responsible_role: Software Developer
+additional_roles:
+  - Data Scientist
+subprocess:
+  - Customer Integration and Evaluation

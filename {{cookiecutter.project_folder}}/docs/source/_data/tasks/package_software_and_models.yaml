@@ -1,0 +1,22 @@
+---
+name: Package Software and Models
+purpose: Provide a software package that is ready to be deployed.
+description:
+  Creates a self-contained software package that can be deployed to a server.
+  Self-contained means the resulting package contains the actual software and all its dependencies and models.
+steps:
+  - Select models (embeddings and vectorizers) you want to deploy
+  - Add models to dockerfile
+  - Build the package with "docker build" (installs all dependencies inside the Docker Image)
+  - Alternatively invoke the Git CI/CD pipeline
+artifacts:
+  requires:
+    - Environment Specification
+    - Technical Requirements
+  creates:
+    - Software Package
+responsible_role: Data Scientist
+additional_roles:
+  - Software Developer
+subprocess:
+  - Application Engineering

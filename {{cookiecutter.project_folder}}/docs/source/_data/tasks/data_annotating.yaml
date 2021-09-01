@@ -1,0 +1,12 @@
+---
+name: Data Annotating
+purpose: Annotate data
+description: The annotator team annotates the corpus and approves the annotation quality.
+steps:
+  - Annotate data
+artifacts:
+  creates:
+    - Corpus
+responsible_role: Annotator
+subprocess:
+  - Domain Adoption and Customization

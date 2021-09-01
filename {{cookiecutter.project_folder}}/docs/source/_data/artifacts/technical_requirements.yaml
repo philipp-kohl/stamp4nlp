@@ -1,0 +1,6 @@
+---
+name: Technical Requirements
+description: |
+  Technical requirements describe all non-functional requirements.
+  These Requirements include system requirements, type of deployment and target system descriptions.
+  Furthermore they include Service Level Agreements, Application- and Documentationtypes.

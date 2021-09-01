@@ -1,0 +1,20 @@
+.. _{{data['name']}}:
+
+{{ data['name'] }}
+-------------------------------------------------------------------
+[Artifact]
+
+Description
+^^^^^^^^^^^
+{{ data['description'] }}
+
+
+{% if data['instance_specific'] is defined %}
+Instance Specific Values
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+{% for key in data['instance_specific'] %}
+{{key}} : {{data['instance_specific'][key]}}
+{% endfor %}
+{% endif %}
+

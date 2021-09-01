@@ -1,0 +1,34 @@
+.. _{{data['name']}}:
+
+{{ data['name'] }}
+------------------------
+[Role]
+
+Description
+^^^^^^^^^^^
+{{ data['description'] }}
+
+
+Skills
+^^^^^^
+{% for skill in data['skills'] %}
+- {{skill}}
+{% endfor %}
+
+
+{% if data['responsible_for'] is defined%}
+Responsible for
+^^^^^^^^^^^^^^^
+{% for task in data['responsible_for'] %}
+- :ref:`{{task}}`
+{% endfor %}
+{% endif %}
+
+
+{% if data['performs'] is defined%}
+Performs Additionally
+^^^^^^^^^^^^^^^^^^^^^
+{% for task in data['performs'] %}
+- :ref:`{{task}}`
+{% endfor %}
+{% endif %}

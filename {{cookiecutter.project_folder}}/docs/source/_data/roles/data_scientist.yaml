@@ -1,0 +1,30 @@
+description: Data Scientists have knowledge in several science fields which are needed
+  to gain information from data.
+name: Data Scientist
+performs:
+- Approve Requirements
+- Requirements Documentation Review
+- Domain Knowledge Transfer
+- Evaluate Data Sources
+- Check Business Requirements
+- Monitoring
+- Review Current Process
+responsible_for:
+- Define NLP Goal
+- Specify Requirements
+- Specify Annotations
+- Corpus Composition
+- Data Management
+- Tool Composition
+- Staffing and Project Management
+- Corpus Stratifying
+- Training
+- Metric Compliance
+- Package Software and Models
+- Deployment
+- Quality Assurance
+skills:
+- 'Knowledge of Machine Learning: Training, Augmentation, Metrics'
+- 'Knowledge of computational linguistics: Annotation Types, NLP Tasks, '
+- Knowledge of Software Engineering
+- Result visualization and presentation for audience

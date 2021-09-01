@@ -1,0 +1,10 @@
+---
+name: Application Engineering
+description: Application Engineering describes the process of packaging, deploying and versioning the software with embedded model and its quality assurance.
+  Depending on the measured quality the development process results in a new Development Loop (:ref:`Domain Discovery and Data Selection`) or
+  in a Evolution Loop (:ref:`Customer Integration and Evaluation`).
+tasks:
+  - Package Software and Models
+  - Deployment
+  - Quality Assurance
+  - Version Packaged Software and Model

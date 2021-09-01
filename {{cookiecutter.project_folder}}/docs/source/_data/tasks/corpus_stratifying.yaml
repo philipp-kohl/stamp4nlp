@@ -1,0 +1,22 @@
+---
+name: Corpus Stratifying
+purpose: Prepare the annotated corpus to train the model and validate it's performance.
+description: |
+  Given the amount and complexity of annotated data, a test set to evaluate the performance of the system
+  has to be splitted from the training data. Purpose is to create a certain level of confidence.
+  Classic 70-20-10 splits may not be satisfiing.
+steps:
+  - Measure corpus metrics (inter annotator agreement (IAA), ...)
+  - Define amount of necessary test data (depends on goal)
+  - Split the remaining training data in training and development / validation splits.
+artifacts:
+  requires:
+    - Corpus
+    - Corpus Metric Requirements
+  creates:
+    - Training Dataset
+    - Evaluation Dataset
+    - Test Dataset
+responsible_role: Data Scientist
+subprocess:
+  - Domain Adoption and Customization

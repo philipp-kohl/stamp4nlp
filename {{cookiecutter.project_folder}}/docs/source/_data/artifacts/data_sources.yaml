@@ -1,0 +1,3 @@
+---
+name: Data Sources
+description: Data Sources are channels and sources from which the data will be obtained. This could be a crawler, a connection to a database and many more.

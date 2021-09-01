@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "stamp4nlp-scripts"
+version = "0.1.0"
+description = "Test Environment for STAMP 4 NLP cookiecutter project and several helper scripts"
+authors = ["Andre Buesgen <buesgen@fh-aachen.de>", "Philipp Kohl <p.kohl@fh-aachen.de>", "Marvin Winkens <winkens@fh-aachen.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+cookiecutter = "^1.7.2"
+click = "^7.1.2"
+
+[tool.poetry.dev-dependencies]
+tomlkit = "^0.7.2"
+pytest = "^5.2"
+pytest-coverage = "^0.0"
+pyyaml = "^5.3.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry.scripts]
+test_doc = "stamp4nlp_scripts.sim_doc_change:main"
+gen_addll_tasks = "stamp4nlp_scripts.generate_perfoms_additionally_in_roles:main"

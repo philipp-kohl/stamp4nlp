@@ -1,0 +1,21 @@
+---
+name: Integrate Services in Customer Application
+purpose: Generate customer benefit by integrating the NLP-Services into the customer's applications
+description: The benefit only arises with the integration of new functionality. To do this, interfaces may have to be extended or adapters have to be created or exchange formats have to be established.
+responsible_role: Project Leader
+additional_role:
+  - Software Developer
+  - Customer
+steps:
+  - review together with the customer the technical and functional interfaces of the systems to be integrated
+  - create an estimation of the integration tasks and costs
+  - plan the integration and define areas of responsibility in cooperation with the customer
+  - provide integration interface in customer environment
+  - support the customer to integrate the software package
+artifacts:
+  requires:
+    - Technical Requirements
+  creates:
+    - Integration Plan
+subprocess:
+  - Customer Integration and Evaluation

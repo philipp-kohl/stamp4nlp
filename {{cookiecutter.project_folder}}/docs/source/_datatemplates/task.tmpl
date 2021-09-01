@@ -1,0 +1,73 @@
+.. _{{data['name']}}:
+
+{{data['name']}}
+-----------------------------------------------------------
+{% if data['subprocess'] is defined %}
+{% set references = [] %}
+{% for subprocess in data['subprocess'] %}
+{{ references.append(':ref:`'+ subprocess +'`') or ""}}
+{% endfor %}
+[Task of {{references|join(", ")}}]
+{% else %}
+[Task]
+{% endif %}
+
+Purpose
+^^^^^^^
+{{ data['purpose'] }}
+
+Description
+^^^^^^^^^^^
+{{ data['description'] }}
+
+Steps
+^^^^^
+{% for task in data['steps'] %}
+- {{task}}
+{% endfor %}
+
+{% if data['artifacts'] is defined%}
+Artifacts
+^^^^^^^^^
+
+{% if data['artifacts']['requires'] is defined %}
+Requires
+""""""""
+{% for artifact in data['artifacts']['requires'] %}
+- :ref:`{{artifact}}`
+{% endfor %}
+{% endif %}
+
+{% if data['artifacts']['creates'] is defined %}
+Creates
+"""""""
+{% for artifact in data['artifacts']['creates'] %}
+- :ref:`{{artifact}}`
+{% endfor %}
+{% endif %}
+
+{% endif %}
+
+
+{% if data['checklist'] is defined%}
+Checklist
+^^^^^^^^^
+{% for checklist in data['checklist'] %}
+- :ref:`{{checklist}}`
+{% endfor %}
+{% endif %}
+
+{% if data['responsible_role'] is defined%}
+Responsible Role
+^^^^^^^^^^^^^^^^
+- :ref:`{{data['responsible_role']}}`
+{% endif %}
+
+{% if data['additional_roles'] is defined%}
+Additional Roles
+^^^^^^^^^^^^^^^^
+{% for role in data['additional_roles'] %}
+- :ref:`{{role}}`
+{% endfor %}
+{% endif %}
+

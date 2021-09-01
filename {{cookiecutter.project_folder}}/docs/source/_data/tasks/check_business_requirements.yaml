@@ -1,0 +1,21 @@
+---
+name: Check Business Requirements
+purpose: Based on the monitoring of the running system and the specified business requirements, an assessment is made whether the system meets the requirements or not.
+description: The integrated system is checked against the initially defined and incrementally expanded business goals. The system runs satisfactorily if the business goals are met.
+steps:
+  - Review business goals and their operational transforming
+  - Compare the results with the business goals
+  - In cooperation with the customer, make the decision as to whether and where improvements are required.   
+  - Prepare the decision to revise the business goals in a new process iteration
+responsible_role: Project Leader
+additional_roles:
+  - Data Scientist
+  - Customer
+artifacts:
+  requires:
+    - Business Requirements
+    - Production Report
+  creates:
+    - Recommendation and Business Decision
+subprocess:
+  - Customer Integration and Evaluation

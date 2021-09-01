@@ -1,0 +1,22 @@
+---
+name: Specify Annotations
+purpose: Annotation guidelines support the tagger choosing the correct annotation and lead to consistent results.
+description: Define annotation types, like labels, entities or classes, which are used in the tagging and development process.
+  Create an annotation set for each annotation typ. For example PER, LOC, DATE for the named entity type.
+  Annotation guidelines are created for the associated annotation types.
+steps:
+  - Review NLP task and Machine learning requirements
+  - Define Annotation types fulfilling the requirements for the task
+  - Add Annotation set for each annotation type
+  - Develop supporting guidelines for each annotation set
+  - Feedback loop with domain expert
+artifacts:
+  creates:
+    - Annotation Guidelines
+    - Annotation Set
+    - Annotation Types
+responsible_role: Data Scientist
+additional_roles:
+  - Domain Expert
+subprocess:
+  - Domain Discovery and Data Selection

@@ -1,0 +1,7 @@
+---
+name: Versioned Software Package
+description:
+  The runnable software that contains all required dependencies and models (see Software Package).
+  Also contains information about its machine learning configuration and quality metrics.
+  The versioning of the packaged software together with the configuration and quality metrics serves the purpose of transparency and reproducibility.
+  If in practice a newer version of the software and model perform worse than an older version, an earlier version can easily be restored.

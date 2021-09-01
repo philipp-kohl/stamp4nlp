@@ -1,0 +1,10 @@
+---
+name: Domain Discovery and Data Selection
+description:
+  Create a promising base corpus for a successful application.
+  Support the tagging process with annotation guidelines and defined annotation types and sets.
+  Setup a consistent and useable data management.
+tasks:
+  - Specify Annotations
+  - Corpus Composition
+  - Data Management

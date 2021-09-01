@@ -1,0 +1,15 @@
+---
+name: Domain Adoption and Customization
+purpose: 
+description:
+  Subprocess addresses the planning and performing of the tagging process to prepare examples for the training routine.
+  The :ref:`Data Scientist` selects an appropriate toolchain and a representative subset of training data to train a model.
+tasks:
+  - Tool Composition
+  - Staffing and Project Management
+  - Domain Knowledge Transfer
+  - Data Annotating
+  - Corpus Stratifying
+  - Training
+  - Metric Compliance
+

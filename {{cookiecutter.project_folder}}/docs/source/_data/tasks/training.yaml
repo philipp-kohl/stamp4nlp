@@ -1,0 +1,19 @@
+---
+name: Training
+purpose: Create a first/new model.
+description:
+  Use the stratified dataset and toolchain to create a new model.
+  TODO - rule based approaches?
+steps:
+  - Start training routine
+artifacts:
+  requires:
+    - Augmented Training Dataset
+    - Evaluation Dataset
+    - Test Dataset
+    - NLP Pipeline
+  creates:
+    - Model
+responsible_role: Data Scientist
+subprocess:
+  - Domain Adoption and Customization

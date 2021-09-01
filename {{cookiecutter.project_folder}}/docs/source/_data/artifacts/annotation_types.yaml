@@ -1,0 +1,5 @@
+---
+name: Annotation Types
+description: The Annotation Types contain all needed annontations for the goal, e.g. labels, entities, CoRef, POS-Tags.
+  Depending on the application type another subset of annotation type will be needed.
+  In a corpus different types of annotations are allowed.

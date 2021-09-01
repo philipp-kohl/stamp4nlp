@@ -1,0 +1,16 @@
+---
+name: Domain Knowledge Transfer
+purpose: Experts transfer domain knowledge to annotators.
+description: |
+  Annotators need task specific domain knowledge.
+  This knowledge must enable them to annotate the data with respect to the annotation guideline.
+steps:
+  - Create training, workshop, ... for annotators
+  - Train (and test) annotators
+  - Document results in :ref:`Annotation Guidelines`
+responsible_role: Domain Expert
+additional_roles:
+  - Annotator
+  - Data Scientist
+subprocess:
+  - Domain Adoption and Customization

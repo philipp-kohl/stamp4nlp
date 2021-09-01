@@ -1,0 +1,19 @@
+{
+  "project_name": "NLP Process Model Instance",
+  "project_folder": "{{cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-')}}",
+  "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
+  "project_short_description": "Creates an instance of a standardized NLP Process Model",
+  "project_language": "This must be one of spaCy's default languages. See https://spacy.io/usage/models for a supported list.",
+  "use_gpu": true,
+  "application_type": [
+    "blank",
+    "NER = https://github.com/philipp-kohl/stamp-template-ner",
+    "Classification = https://github.com/philipp-kohl/stamp-template-cl"
+  ],
+  "project_author": "",
+  "project_author_email": "",
+  "_copy_without_render": [
+    "*.tmpl",
+    "docs/source/_templates/*.rst"
+  ]
+}

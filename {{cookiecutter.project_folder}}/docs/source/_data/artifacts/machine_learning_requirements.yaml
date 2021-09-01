@@ -1,0 +1,5 @@
+---
+name: Machine Learning Requirements
+description: |
+  Machine Learning Requirements specify the metrics and thresholds (e.g. the required F1-Score)
+  for each machine learning task.

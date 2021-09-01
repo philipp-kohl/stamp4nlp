@@ -1,0 +1,5 @@
+---
+name: Model
+description: The trained (statistical) model stored with its weights and configuration. It can be used for inference on unseen data.
+  Thus, it represents the core of the NLP application. Software Developer embed the model into a web service to make the input and output handling and application of business rules easier.
+

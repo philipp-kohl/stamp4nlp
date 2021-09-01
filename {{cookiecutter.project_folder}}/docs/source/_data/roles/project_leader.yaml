@@ -1,0 +1,14 @@
+description: The project leader serves as a contact person for the development team
+  and manages accounting, sets, and chairs appointments.
+name: Project Leader
+performs:
+- Approve Requirements
+- Define NLP Goal
+- Staffing and Project Management
+responsible_for:
+- Review Current Process
+- Requirements Documentation Review
+skills:
+- Communication
+- Planning
+- Basic NLP knowledge

@@ -1,0 +1,11 @@
+---
+name: Data Augmentation Strategies
+description: "
+  Defining data augmentation strategies addressing challenges of the project to generate more training data points
+  with transformations based on the regular training dataset.
+
+  * Introducing noise with typos\n
+  * Exchange similar words\n
+  * Translate + Back-Translate\n
+  * Dependency Parsing: Manipulation\n
+  * ..."

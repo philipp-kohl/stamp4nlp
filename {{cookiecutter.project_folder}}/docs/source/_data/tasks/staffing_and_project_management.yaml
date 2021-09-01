@@ -1,0 +1,23 @@
+---
+name: Staffing and Project Management
+purpose: Define who annotates the data and estimate the workload.
+description: |
+  Depending on the high level goal ("task of nlp pipeline") the annotation process has a different
+  level of complexity. Implement a procedure that ensures that given time and cost constraints of customer
+  data can be annotated.
+steps:
+  - Estimate complexity of annotation process
+  - Estimate amount of needed data
+  - Estimate workload (PM)
+  - Define annotation team (3 people - big Amazon MT Task)
+  - Define annotation process (double verification, ...)
+  - Setup tagging tool (create QPT project/RAP/Doccano ...)
+artifacts:
+  - Work-plan and time-schedule
+  - Setup of tagging tool
+responsible_role: Data Scientist
+additional_roles:
+  - Project Leader
+  - Annotator
+subprocess:
+  - Domain Adoption and Customization

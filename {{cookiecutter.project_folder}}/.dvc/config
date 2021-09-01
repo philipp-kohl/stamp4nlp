@@ -1,0 +1,6 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = FILL-IN-YOUR-IP/{{cookiecutter.project_folder}}
+    user = YOUR-USER
+    ask_password = true

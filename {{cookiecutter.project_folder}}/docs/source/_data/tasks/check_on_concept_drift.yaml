@@ -1,0 +1,18 @@
+---
+name: Check on Concept Drift
+purpose: Based on the monitoring of the running system, it is checked whether the results still meet the current, continuously changing requirements.
+description: Customer requirements will evolve over time. Even if the solution meets the initially specified requirements, it is necessary to observe the benefits of the system in the changing environment.
+steps:
+  - Review Business Goals and their operational transforming
+  - Discuss the results with the customer and find out whether requirements have changed.
+responsible_role: Project Leader
+additional_role:
+  - Data Scientist
+  - Customer
+artifacts:
+  requires:
+    - Production Report
+  creates:
+    - Recommendation and Business Decision
+subprocess:
+  - Customer Integration and Evaluation

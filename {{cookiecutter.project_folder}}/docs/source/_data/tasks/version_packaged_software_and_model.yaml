@@ -1,0 +1,15 @@
+---
+name: Version Packaged Software and Model
+purpose: Version the packaged software and model together with its metrics.
+description:
+  Versions the packaged software and model together with its metrics.
+  If the quality (see Internal Quality Assurance) is over a specified threshold, the software can go into customer integration.
+  Otherwise a refinement in domain discovery is required.
+steps:
+  - TODO Was sind die exakten Schritte? (Was für ein Tool benutzen wir, wo wird das Paket abgelegt, usw.)
+artifacts:
+  creates:
+    - Versioned Software Package
+responsible_role: Data Scientist
+subprocess:
+  - Application Engineering

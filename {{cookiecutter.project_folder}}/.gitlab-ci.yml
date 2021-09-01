@@ -1,0 +1,72 @@
+image:
+  name: python:latest
+
+stages:
+  - build
+  - test
+  - documentation
+  - deploy
+
+services:
+  - docker:dind
+
+variables:
+  DOCKER_DRIVER: overlay2
+
+code_quality:
+  tags:
+    - lbp-codeclimate-cq
+  stage: test
+  artifacts:
+    expose_as: 'Code Quality Report'
+    paths: [gl-code-quality-report.json]
+
+code_quality_html:
+  tags:
+    - lbp-codeclimate-cq
+  extends: code_quality
+  variables:
+    REPORT_FORMAT: html
+  artifacts:
+    paths: [gl-code-quality-report.html]
+
+job_test:
+  stage: test
+  script:
+    - source /opt/poetry/env
+    - poetry run pytest --cov-report xml --cov={{cookiecutter.project_folder}}
+  artifacts:
+    paths:
+      - coverage.xml
+
+
+generate_documentation:
+  stage: documentation
+  before_script:
+    - chmod +x ./.gitlab-ci/install-poetry.sh
+    - ./.gitlab-ci/install-poetry.sh
+  script:
+    - poetry config virtualenvs.create false
+    - source /opt/poetry/env
+    - poetry install --no-root
+    - poetry run gen_doc
+  artifacts:
+    paths:
+      - docs/build/html/
+
+pages:
+  image: node:lts-slim
+  stage: deploy
+  before_script:
+    - chmod +x ./.gitlab-ci/install-poetry.sh
+    - ./.gitlab-ci/install-poetry.sh
+  script:
+    - cp -R docs/build/html/ public/
+  dependencies:
+    - generate_documentation
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
+

@@ -1,0 +1,3 @@
+---
+name: Environment Specification
+description: Contains information about all used programming languages (e.g. python 2.7) and all installed libraries with versions.

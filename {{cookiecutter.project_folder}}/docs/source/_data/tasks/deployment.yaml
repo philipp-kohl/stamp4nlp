@@ -1,0 +1,11 @@
+---
+name: Deployment
+purpose: Make the software available on a server.
+description:
+  Runs the packaged software in a test or productive environment.
+  All required artifacts and dependencies are already installed in the software package.
+steps:
+  - Invoke the Git CI/CD pipeline (see Package Software and Models)
+responsible_role: Data Scientist
+subprocess:
+  - Application Engineering

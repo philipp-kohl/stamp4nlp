@@ -1,0 +1,5 @@
+---
+name: Software Package
+description:
+  A bundled software that is runnable.
+  Contains all required dependencies and models.

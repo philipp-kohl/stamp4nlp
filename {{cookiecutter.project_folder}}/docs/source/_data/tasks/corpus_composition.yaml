@@ -1,0 +1,17 @@
+---
+name: Corpus Composition
+purpose: Ensure that the :ref:`Corpus Metric Requirements` are met and the corpus consists of representatives to create best possible results in training.
+description: Selection of representative canditates from the data source and saving them in a reasonable corpus format.
+steps:
+  - Review :ref:`Corpus Metric Requirements`
+  - Take representatives from :ref:`Data Sources`
+  - Save corpus in the specified storage and version it
+  - Evaluate :ref:`Corpus Metric Requirements`
+  - Edit current corpus, if needed, to fulfill :ref:`Corpus Metric Requirements`
+artifacts:
+  creates:
+    - Corpus
+    - Corpus Format
+responsible_role: Data Scientist
+subprocess:
+  - Domain Discovery and Data Selection

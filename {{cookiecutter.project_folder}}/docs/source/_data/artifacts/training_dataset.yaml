@@ -1,0 +1,3 @@
+---
+name: Training Dataset
+description: The training dataset is an annotated dataset, which the :ref:`nlp pipeline` uses to learn rules based on these examples.

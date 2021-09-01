@@ -1,0 +1,35 @@
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main, feature/githubactions ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  test_cookiecutter_template:
+    runs-on: ubuntu-latest
+    container: philippkohl/python-poetry:latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: poetry install
+      - run: poetry run pytest --ignore="{{cookiecutter.project_folder}}"
+
+  run_sphinx:
+    runs-on: ubuntu-latest
+    container: philippkohl/python-poetry:latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: ./.github/workflows/generate_doc.sh
+      - name: Upload documentation
+        uses: actions/upload-artifact@v2
+        with:
+          name: documentation
+          path: nlp-process-model/docs/build/html/
+
+
