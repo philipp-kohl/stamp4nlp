@@ -4,7 +4,7 @@
   "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
   "project_short_description": "Creates an instance of a standardized NLP Process Model",
   "project_language": "This must be one of spaCy's default languages. See https://spacy.io/usage/models for a supported list.",
-  "use_gpu": true,
+  "use_gpu": false,
   "application_type": [
     "blank",
     "NER = https://github.com/philipp-kohl/stamp-template-ner",
