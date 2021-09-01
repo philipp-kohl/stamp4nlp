@@ -13,12 +13,14 @@ on:
   
 jobs:
   test_cookiecutter_template:
+    runs-on: ubuntu-latest
     container: philippkohl/python-poetry:latest
     steps:
       - run: poetry install
       - run: poetry run pytest --ignore="{{cookiecutter.project_folder}}"
 
   run_sphinx:
+    runs-on: ubuntu-latest
     container: philippkohl/python-poetry:latest
     steps:
       - run: startPath="$PWD"
