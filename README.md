@@ -20,3 +20,7 @@ Link to paper: https://doi.org/10.1007/978-3-030-85347-1_12
 
 To use DVC you have to change the `config` in .dvc folder.
 
+## TODO
+
+- use_gpu leads sometimes to problems with `poetry install` and cupy
+
