@@ -16,6 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     container: philippkohl/python-poetry:latest
     steps:
+      - uses: actions/checkout@v2
       - run: poetry install
       - run: poetry run pytest --ignore="{{cookiecutter.project_folder}}"
 
@@ -23,6 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     container: philippkohl/python-poetry:latest
     steps:
+      - uses: actions/checkout@v2
       - run: startPath="$PWD"
       # Install cookiecutter and export path
       - run: pip install --user cookiecutter
