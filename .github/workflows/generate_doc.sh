@@ -8,7 +8,7 @@ source ~/.profile
 poetry config virtualenvs.create false
 source /opt/poetry/env
 cd "$startPath"
-cookiecutter --no-input . project_name="NLP Process Model" project_author="Philipp Kohl" project_author_email="p.kohl@fh-aachen.de"
+cookiecutter --no-input . project_name="NLP Process Model" project_author="Philipp Kohl" project_author_email="p.kohl@fh-aachen.de" use_gpu="False"
 cd nlp-process-model
 poetry install --no-root
 poetry run gen_doc
