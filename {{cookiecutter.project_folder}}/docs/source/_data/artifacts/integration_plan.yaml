@@ -1,0 +1,6 @@
+---
+name: Integration Plan
+description: | 
+    Collects information about interfaces that the software must provide to match the customer's application.
+    Customer and development team determine responsibilites for integration tasks.
+    Tasks are estimated in effort and costs.

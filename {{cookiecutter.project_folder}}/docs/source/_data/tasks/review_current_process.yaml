@@ -1,0 +1,24 @@
+---
+name: Review Current Process
+purpose: Find pain points and room for improvement in the current process
+description: |
+  In a workshop all participating roles discuss and evaluate the current process.
+  A Domain Expert describes the process and its pain points.
+  Every attendee may suggest possible optimizations in an open discussion (e.g. avoid manual work).
+steps:
+  - Process description
+  - Find and explain pain points
+  - Search for optimization potential
+  - Discuss improvements
+  - Agree on Customer Vision
+artifacts:
+  creates:
+    - Process Visualization
+    - Customer Vision
+responsible_role: Project Leader
+additional_roles:
+  - Customer
+  - Domain Expert
+  - Data Scientist
+subprocess:
+  - Goal Specification

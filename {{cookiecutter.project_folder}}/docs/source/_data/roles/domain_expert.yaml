@@ -1,0 +1,22 @@
+description: 'The Domain Experts are familiar with the business processes. They serve
+  as contact persons for business-related questions for the development team: e.g.,
+  explaining the data to data scientists and prepare annotators for the annotation
+  process.'
+name: Domain Expert
+performs:
+- Requirements Documentation Review
+- Define NLP Goal
+- Data Management
+- Specify Requirements
+- Review Current Process
+responsible_for:
+- Evaluate Data Sources
+- Approve Requirements
+- Domain Knowledge Transfer
+- Specify Annotations
+skills:
+- Knowledge of the business processes
+- Knowledge of the domain-specific data structures
+- Communication skills
+- (Optional) Knowledge of :ref:`Annotation Types`
+- (Optional) Basic machine learning Knowledge (e.g., metrics)

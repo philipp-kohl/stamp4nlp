@@ -1,0 +1,16 @@
+description: The software developers use the statistic models developed by data scientists
+  to automate business processes. They are together with data scientists responsible
+  for making the models usable in client software.
+name: Software Developer
+performs:
+- Package Software and Models
+responsible_for:
+- Deploy and Deliver Application
+- Integrate Services in Customer Application
+- Monitoring
+- Check Business Requirements
+- Check on Concept Drift
+skills:
+- Microservice Architecture
+- REST / Soap / ...
+- Docker

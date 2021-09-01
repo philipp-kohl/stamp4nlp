@@ -1,0 +1,20 @@
+---
+name: Apply Data Augmentation
+purpose: Generate more training examples to train a better performing model
+description: |
+  Data Augmentation describes a method to generate new trainings examples with different strategies: e.g., introducing noise to data points (typo, removing words).
+  Depending on the use case different strategies are appropriate. The goal is to train a better performing and robust model.
+  This tasks is marked as technical task. Thus, the definition of :ref:`Data Augmentation Strategies` with corresponding implementations triggers the data augmentation step as a part of the training process.
+  If the augmentation process is too computation-intensive, the data augmentation should be done beforehand and versioned as new corpus.
+steps:
+  - None
+artifacts:
+  requires:
+    - Data Augmentation Strategies
+  creates:
+    - Augmented Training Dataset
+    - Evaluation Dataset
+    - Test Dataset
+responsible_role: None
+subprocess:
+  - Domain Adoption and Customization

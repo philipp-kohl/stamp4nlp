@@ -1,0 +1,14 @@
+---
+name: Create New Corpus Version
+purpose: Serves reproducability, traceability and comprehensibility
+description: Versioning the data as versioning the code helps to rerun experiments. This can be helpful if data scientists want to try different things
+  and use made experiments as a starting point.
+steps:
+  - DVC / git commit
+artifacts:
+  creates:
+    - Corpus
+responsible_role: None
+subprocess:
+  - Domain Adoption and Customization
+  - Domain Discovery and Data Selection

@@ -1,0 +1,20 @@
+---
+name: Quality Assurance
+purpose: Measuring the model and software quality.
+description:
+  Behavioral testing of NLP models with CheckList and assuring code quality.
+  Generates a quality assurance report that will be used to determine if the software can go into customer integration.
+steps:
+  - Run SonarQube to measure code quality.
+  - Evaluate all ML related metrics.
+  - Generate report file.
+artifacts:
+  requires:
+    - Metric Report
+    - MEDIATION Test Cases
+    - Machine Learning Requirements
+  creates:
+    - Quality Assurance Report
+responsible_role: Data Scientist
+subprocess:
+  - Application Engineering

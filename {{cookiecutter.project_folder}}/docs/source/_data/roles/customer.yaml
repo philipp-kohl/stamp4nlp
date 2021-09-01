@@ -1,0 +1,15 @@
+description: The customer needs to (partially) automatize his business processes.
+  He defines goals, requirements and represents the decision-maker.
+name: Customer
+performs:
+- Approve Requirements
+- Requirements Documentation Review
+- Define NLP Goal
+- Data Management
+- Check Business Requirements
+- Specify Requirements
+- Review Current Process
+skills:
+- Knowledge of the business processes
+- Basic vision on the automotation
+- Able to make decisions

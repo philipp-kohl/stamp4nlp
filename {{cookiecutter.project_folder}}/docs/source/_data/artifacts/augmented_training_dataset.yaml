@@ -1,0 +1,3 @@
+---
+name: Augmented Training Dataset
+description: The Augmented Training Dataset is the result from executing the :ref:`Augmentation Strategies` on the :ref:`Training Dataset` to enhance the :ref:`Corpus`.

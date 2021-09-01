@@ -1,0 +1,8 @@
+---
+name: Business Requirements
+description: "Defining the Business Requirements means to describe the purpose to develop the NLP aaplication. 
+  With establishing a new application expectations from a business perspective are made. The Business Requirements are therefore a success criteria and a measurable metric which will be measured during the development process.
+  Besides the purpose of the new application, key performance indicators (KPI) are common metrics for business requirements. KPIs show the stakeholders how the project contributes to their business success and are better known und unterstand than :ref:`Machine Learning Requirements`.
+  For example: decreases in costs, increases sales, amount on saving work hours, ..."
+
+# Literatur: CRISP-ML(Q)

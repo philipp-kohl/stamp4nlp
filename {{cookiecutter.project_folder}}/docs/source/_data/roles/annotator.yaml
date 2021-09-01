@@ -1,0 +1,12 @@
+description: 'Annotators annotate documents: they enrich the documents with linguistic
+  information. See also :ref:`Annotation Guidelines` and :ref:`Annotation Types`'
+name: Annotator
+performs:
+- Domain Knowledge Transfer
+- Staffing and Project Management
+responsible_for:
+- Data Annotating
+skills:
+- Knowledge about :ref:`Annotation Types`
+- Contributes to and follows the :ref:`Annotation Guidelines`
+- Able to use a Annotation Tool

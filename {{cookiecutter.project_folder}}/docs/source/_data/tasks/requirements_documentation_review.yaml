@@ -1,0 +1,17 @@
+---
+name: Requirements Documentation Review
+purpose: Review and Adapt process
+description: |
+  Perform a review on all subprocess tasks
+  and adapt the process if improvements are identified.
+steps:
+  - Review current process
+  - Identify pain points
+  - Adapt process
+responsible_role: Project Leader
+additional_roles:
+  - Domain Expert
+  - Customer
+  - Data Scientist
+subprocess:
+  - Goal Specification

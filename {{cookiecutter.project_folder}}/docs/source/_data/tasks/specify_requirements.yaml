@@ -1,0 +1,26 @@
+---
+name: Specify Requirements
+purpose: Detailed definition of Requirements
+description: |
+  Discuss and agree to measurable Requirements.
+  The Requirements should follow the MEDIATION and ATTESTATION pattern.
+  The results should contain metrics, functional, non-functional and machine learning Requirements.
+steps:
+  - Identify
+  - Discuss
+  - Agree
+artifacts:
+  creates:
+    - Machine Learning Requirements
+    - Business Requirements
+    - Corpus Metric Requirements
+    - Technical Requirements
+    - MEDIATION Test Cases
+  requires:
+    - Customer Vision
+responsible_role: Data Scientist
+additional_roles:
+  - Customer
+  - Domain Expert
+subprocess:
+  - Goal Specification

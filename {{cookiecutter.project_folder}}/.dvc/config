@@ -1,0 +1,6 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = ssh://149.201.187.65/projects/{{cookiecutter.project_folder}}
+    user = dvc
+    ask_password = true

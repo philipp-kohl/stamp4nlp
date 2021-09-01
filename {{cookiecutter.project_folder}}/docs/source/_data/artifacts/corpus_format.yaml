@@ -1,0 +1,4 @@
+---
+name: Corpus Format
+description: Format in which documents that are part of a :ref:`Corpus` are saved.
+  Should be capable of storing and handling any required :ref:`Annotation Types`.

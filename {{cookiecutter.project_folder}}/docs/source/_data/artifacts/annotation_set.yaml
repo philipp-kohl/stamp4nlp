@@ -1,0 +1,5 @@
+---
+name: Annotation Set
+description: Annotation set will be firstly established in the project start but will not be immutable over the whole project.
+  It is common practice that the annotation set will be refined if necessary.
+  The set presents which annotation can be tagged. For example they define the Named Entities the annotators should annotate. The same applies to labels, POS-Tags, CoRef...

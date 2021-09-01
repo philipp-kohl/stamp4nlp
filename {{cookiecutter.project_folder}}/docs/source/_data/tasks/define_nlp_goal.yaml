@@ -1,0 +1,22 @@
+---
+name: Define NLP Goal
+purpose: Data Scientist knows which NLP tasks to implement
+description: |
+  All possible NLP tasks are evaluated and the most promosing are chosen for
+  implementation. This decision should focus on concepts and algorithms instead of implementation details.
+steps:
+  - Evaluate Data
+  - Evaluate Requirements
+  - Define NLP challenge
+artifacts:
+  creates:
+    - NLP Tasks
+  requires:
+    - Customer Vision
+responsible_role: Data Scientist
+additional_roles:
+  - Customer
+  - Domain Expert
+  - Project Leader
+subprocess:
+  - Goal Specification

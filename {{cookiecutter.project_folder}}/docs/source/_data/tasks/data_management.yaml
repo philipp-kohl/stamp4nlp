@@ -1,0 +1,21 @@
+---
+name: Data Management
+purpose: Create standardized storage and versioning concept in the project so every role can access und use the data.
+description: Setup a data storage and documentation including license and taking data protection aswell as access rights into account.
+  The data storage should be accessible by every role and match the given needs.
+steps:
+  - Setup data storage compatible to the versioning concept
+  - Select matching license
+  - Control data protection and access rights
+  - Document choosen data storage, license and data protection in :ref:`Data Management Report`
+artifacts:
+  requires:
+    - Versioning Concept
+  creates:
+    - Data Management Report
+responsible_role: Data Scientist
+additional_roles:
+  - Customer
+  - Domain Expert
+subprocess:
+  - Domain Discovery and Data Selection

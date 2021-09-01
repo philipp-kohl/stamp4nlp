@@ -1,0 +1,22 @@
+---
+name: Evaluate Data Sources
+purpose: Identify and collect Data Sources
+description: |
+  Based on the Customer Vision possible Data Sources are identified and analyzed
+  whether they contain relevant data.
+  Access to the Data Sources is checked for compliance (e.g. to the privacy policy).
+  The chosen Data Sources are stored for further processing.
+steps:
+  - Identify possible Data Sources
+  - Check Compliance
+  - Collect Data Sources
+artifacts:
+  creates:
+    - Data Sources
+  requires:
+    - Customer Vision
+responsible_role: Domain Expert
+additional_roles:
+  - Data Scientist
+subprocess:
+  - Goal Specification

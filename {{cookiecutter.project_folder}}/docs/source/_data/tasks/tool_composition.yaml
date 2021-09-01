@@ -1,0 +1,16 @@
+---
+name: Tool Composition
+purpose: Selection of suitable framework(s)/software to solve the high level NLP problem.
+description: | 
+  The complexity of this step depends on the complexity of the annotation structure.
+  Different available tools and their combinations are composed.
+steps:
+  - Evaluate available software
+  - Test single pipeline steps with given sample data
+  - Choose elements for final NLP Pipeline
+artifacts:
+  creates:
+    - NLP Pipeline
+responsible_role: Data Scientist
+subprocess:
+  - Domain Adoption and Customization

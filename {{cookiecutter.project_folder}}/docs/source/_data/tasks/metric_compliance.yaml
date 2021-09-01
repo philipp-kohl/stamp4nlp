@@ -1,0 +1,15 @@
+---
+name: Metric Compliance
+purpose: Create a Metric Report for quality assurance.
+description: Evaluates the model based on the predefined metrics. The results are stored in a report.
+steps:
+  - Implement evaluation procedure
+  - Create :ref:`Metric Report`
+artifacts:
+  requires:
+    - Model
+  creates:
+    - Metric Report
+responsible_role: Data Scientist
+subprocess:
+  - Domain Adoption and Customization

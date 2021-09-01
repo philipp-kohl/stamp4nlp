@@ -1,0 +1,25 @@
+---
+name: Approve Requirements
+purpose: Quality Assurance of the specified Requirements
+description: |
+  Domain Experts check requirements in detail.
+  Either they approve the requirements or they reject them.
+  Whenever the Domain Expert reject requirements the
+  Specify Requirements Task is repeated.
+steps:
+  - Check Requirements
+  - Approve or refuse requirements
+artifacts:
+  requires:
+    - Machine Learning Requirements
+    - Business Requirements
+    - Corpus Metric Requirements
+    - Technical Requirements
+    - MEDIATION Test Cases
+responsible_role: Domain Expert
+additional_roles:
+  - Data Scientist
+  - Project Leader
+  - Customer
+subprocess:
+  - Goal Specification

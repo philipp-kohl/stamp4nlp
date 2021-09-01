@@ -1,0 +1,4 @@
+---
+name: NLP Pipeline
+description: The composition of tools or pipeline steps used for the training process. It covers the classical pipeline approach as well as the modern deep learning approach.
+  The pipeline covers all decisions that are required for the training process (algorithms, configurations, hyperparameter spaces, etc.).

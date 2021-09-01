@@ -1,0 +1,15 @@
+.. _{{data['name']}}:
+
+{{ data['name'] }}
+---------------------------------------------------------------------------------
+[Subprocess]
+
+Description
+^^^^^^^^^^^
+{{ data['description'] }}
+
+Tasks
+^^^^^
+{% for task in data['tasks'] %}
+- :ref:`{{task}}`
+{% endfor %}

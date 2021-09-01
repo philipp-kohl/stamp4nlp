@@ -1,0 +1,4 @@
+---
+name: Versioning Concept
+description: The versioning concept describes how, when, and where different types of artifacts should be versioned.
+  E.g., source code with git, data with dvc and documentation with git. This concept can be project-specific and should be documented under :ref:`convention_changes`.

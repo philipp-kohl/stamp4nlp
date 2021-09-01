@@ -1,0 +1,22 @@
+---
+name: Deploy and Deliver Application
+purpose: Support Customer getting Application deployed and running in his environment
+description: Support the customer to be able to install or update the
+  software in his environment. Resposible for deployment and operation is the customer.
+responsible_role: Software Developer
+additional_role: Project Leader
+steps:
+  - Review specified arrangements within goal specification
+  - Contact customer to initiate process
+  - Create supporting documents for customers operation staff
+  - Establish configuration management with baselines  
+  - Transfer software increment according to customers specifications
+  - Support Customer testing deployed Software Artifacts
+artifacts:
+  requires:
+    - Business Requirements
+    - Technical Requirements
+  creates:
+    - Operating Manual
+subprocess:
+  - Customer Integration and Evaluation

@@ -1,0 +1,4 @@
+---
+name: Test Dataset
+description: "The test dataset is a annotated held-out dataset, which is not used during the training process: nor for data analysis and not for training the model.
+  It represents data the model has not seen so far, and, thus an evaluation of this dataset is an indicator of the model's performance for production data."

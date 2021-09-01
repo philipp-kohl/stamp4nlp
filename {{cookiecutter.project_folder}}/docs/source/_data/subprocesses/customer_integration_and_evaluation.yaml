@@ -1,0 +1,15 @@
+---
+name: Customer Integration and Evaluation
+description:
+  Generate customer benefits through installed and maintained application.
+  Install or update the software increment in the target environment.
+  Integrate into customer application. Develop options for monitoring in collaboration
+  with the customer. Check continuously whether the application still meets the requirements
+  during operation. If refinements are needed, initiate new iteration beginning
+  with :ref:`Goal Specification`.
+tasks:
+  - Deploy and Deliver Application
+  - Integrate Services in Customer Application
+  - Monitoring
+  - Check Business Requirements
+  - Check on Concept Drift

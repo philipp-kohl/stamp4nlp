@@ -1,0 +1,4 @@
+---
+name: NLP Tasks
+description: "Maps the business goal to one or several nlp tasks that help achieve the business goal: e.g.,
+  named entity recognition, relation extraction, classification, etc. Based on this information standard code can be generated as a first prototype."

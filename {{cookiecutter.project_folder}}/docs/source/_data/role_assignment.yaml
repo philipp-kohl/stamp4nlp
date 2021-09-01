@@ -1,0 +1,11 @@
+role_assignment:
+  - role: ":ref:`Annotator`"
+    persons:
+  - role: ":ref:`Data Scientist`"
+    persons:
+  - role: ":ref:`Domain Expert`"
+    persons:
+  - role: ":ref:`Project Leader`"
+    persons:
+  - role: ":ref:`Software Developer`"
+    persons:

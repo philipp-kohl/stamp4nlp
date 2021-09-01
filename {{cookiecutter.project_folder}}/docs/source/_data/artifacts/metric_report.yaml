@@ -1,0 +1,5 @@
+---
+name: Metric Report
+description: Result of the model evaluation after training (:ref:`Metric Compliance`) with values for machine learning metrics.
+  The metric report should cover at least the :ref:`machine learning requirements` defined in the :ref:`Goal Specification`.
+  This allows the automatic comparison between the requirements and the achieved performance.

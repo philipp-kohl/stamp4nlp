@@ -13,5 +13,5 @@ STAMP 4 NLP is an instantiable and iterative-incremental process model facilitat
 
 Link to the documentation: https://philipp-kohl.github.io/stamp4nlp/
 
-TODO: link to paper
+Link to paper: https://doi.org/10.1007/978-3-030-85347-1_12
 

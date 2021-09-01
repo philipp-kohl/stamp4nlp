@@ -1,0 +1,3 @@
+---
+name: Corpus
+description: Corpus is a collection of documents, wich will be used for :ref:`Training`. A corpus has a :ref:`Corpus Format`.
