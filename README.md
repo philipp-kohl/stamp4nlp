@@ -15,7 +15,6 @@ Link to the documentation: https://philipp-kohl.github.io/stamp4nlp/
 
 Link to paper: https://doi.org/10.1007/978-3-030-85347-1_12
 
-
 ## DVC
 
 To use DVC you have to change the `config` in .dvc folder in the project instance (instantiated cookiecutter project).
@@ -23,4 +22,5 @@ To use DVC you have to change the `config` in .dvc folder in the project instanc
 ## TODO
 
 - use_gpu leads sometimes to problems with `poetry install` and cupy
+- Testing Github Actions - works best with GitLab at the moment
 
