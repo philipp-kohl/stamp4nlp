@@ -1,2 +1,2 @@
-.. datatemplate:yaml:: ../../_data/tasks/specify_requirements.yaml
+.. datatemplate:yaml:: ../../_data/tasks/specify_annotations.yaml
    :template: task.tmpl

@@ -42,9 +42,7 @@ job_test:
 
 generate_documentation:
   stage: documentation
-  before_script:
-    - chmod +x ./.gitlab-ci/install-poetry.sh
-    - ./.gitlab-ci/install-poetry.sh
+  image: philippkohl/python-poetry:latest
   script:
     - poetry config virtualenvs.create false
     - source /opt/poetry/env
