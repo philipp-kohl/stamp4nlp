@@ -11,10 +11,9 @@ STAMP 4 NLP is an instantiable and iterative-incremental process model facilitat
   - Defined responsibilities for every task, which minimizes points of conflicts
   - Metrics indicate the application’s quality
 
-Link to the documentation: https://philipp-kohl.github.io/stamp4nlp/
+Link to the documentation with all BPMNs, tasks, roles and artifacts: https://laborbusinessprogramming.pages.fh-aachen.de/stamp4nlp/
 
 Link to paper: https://doi.org/10.1007/978-3-030-85347-1_12
-
 
 ## DVC
 
@@ -23,4 +22,5 @@ To use DVC you have to change the `config` in .dvc folder in the project instanc
 ## TODO
 
 - use_gpu leads sometimes to problems with `poetry install` and cupy
+- Testing Github Actions - works best with GitLab at the moment
 
